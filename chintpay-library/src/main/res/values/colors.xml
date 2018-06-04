@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bottom_lib_transport">#00000000</color>
+    <color name="bottom_lib_gray">#F2F0F0</color>
+    <color name="bottom_lib_item_text_color">#333333</color>
+
+</resources>

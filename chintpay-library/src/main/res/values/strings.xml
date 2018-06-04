@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">chintpay-library</string>
+
+    <string name="cancel">@string/bottom_dialog_lib_cancel</string>
+    <string name="bottom_dialog_lib_cancel">取消</string>
+    <string name="choose_pay_type">请选择支付方式</string>
+    <string name="no_pay_channel">未配置相应的支付渠道</string>
+    <string name="choose_gather_type">请选择收款方式</string>
+    <string name="no_gather_channel">未配置相应的收款渠道</string>
+</resources>

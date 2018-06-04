@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.chint.vstori.pingpaydemo.MainActivity">
+
+
+    <EditText
+        android:id="@+id/et_goods_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入商品标题"
+        />
+
+    <EditText
+        android:id="@+id/et_goods_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入交易的具体描述信息"
+        />
+
+    <EditText
+        android:id="@+id/et_money"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="请输入金额"
+        />
+
+
+    <Button
+        android:id="@+id/pay_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="支付弹框按钮" />
+
+    <Button
+        android:id="@+id/gather_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="收款弹框按钮" />
+
+    <Button
+        android:id="@+id/ali_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="支付宝支付按钮" />
+
+    <Button
+        android:id="@+id/wx_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="微信支付按钮" />
+
+</LinearLayout>
